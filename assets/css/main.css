@@ -1,0 +1,316 @@
+@font-face {
+	font-family: 'DINPRO';
+	font-style: normal;
+	font-weight: 100;
+	src: url('../fonts/DINPro-Light.woff'), url('../fonts/DINPro-Light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'DINPRO';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/DINPro.otf'), url('../fonts/DINPro.otf') format('otf');
+}
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: 'DINPRO', sans-serif;
+	color: #656869;
+	overflow-x: hidden;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#banner-wrap {
+	width: 100%;
+	height: 100%;
+	background: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#banner-wrap > img {
+	display: table;
+	margin: auto;
+	padding-top: 12%;
+}
+
+#banner-wrap > h2 {
+	font-size: 66px;
+	color: #656869;
+	text-align: center;
+	margin-top: 80px;
+}
+
+#banner-wrap > h2 > b {
+	font-weight: 600;
+}
+
+.imgwt {
+	display: flex;
+	margin: 80px 0;
+	align-items: center;
+}
+
+.imgwt .left-side,
+.imgwt .right-side {
+	flex: 1;
+	position: relative;
+}
+
+
+.imgwt .frame-overlay {
+	position: absolute;
+	top: 0;
+}
+
+#services h2 {
+	text-align: left;
+}
+
+#aboutus h2 {
+	text-align: right;	
+}
+
+.imgwt h2 {
+	font-size: 68px;
+	margin-bottom: 20px;
+}
+
+.imgwt h2 > b {
+	font-weight: 700;
+}
+
+#aboutus .right-side {
+	margin-left: 60px;
+}
+
+#aboutus .right-side > p {
+	float: left;
+}
+
+#services .left-side > p {
+	float: right;
+	max-width: 74%;
+}
+
+#services .left-side {
+	margin-right: 60px;
+	float: right;
+}
+
+#services p {
+	text-align: right;
+}
+
+.imgwt p {
+	font-size: 24px;
+	text-transform: uppercase;
+	line-height: 40px;
+	max-width: 66%;
+}
+
+#stats {
+	text-align: center;
+	margin: 150px 0;
+}
+
+#stats ul li {
+	margin-bottom: 30px;
+}
+
+#stats ul li h3,
+#stats ul li span {
+	display: inline-block;
+	width: 48%;
+}
+
+#stats ul li h3 {
+	text-align: right;
+	font-size: 60px;
+	color: #f3b90a;
+	font-weight: 700;
+}
+
+#stats ul li span {
+	text-align: left;
+	font-size: 28px;
+	margin-left: 10px;
+}
+
+.banner-photo {
+	margin: 200px 0;
+}
+
+.banner-photo img {
+	width: 100%;
+	height: auto;
+}
+
+#locations {
+	align-items: initial;
+}
+
+#locations .left-side {
+	text-align: right;
+	margin-right: 60px;
+}
+
+#locations .left-side h2 {
+	color: #f3b90a;
+}
+
+#locations .left-side h3 {
+	margin-bottom: 30px;
+	font-size: 26px;
+}
+
+#impact-phrase {
+	font-size: 20px;
+	text-transform: uppercase;
+	line-height: 50px;
+	margin: 150px 0;
+	position: relative;
+}
+
+#impact-phrase p {
+	max-width: 78%;
+	margin: auto;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+#impact-phrase .container {
+	position: relative;
+}
+
+#impact-phrase .fframe,
+#impact-phrase .folha,
+#impact-phrase .sframe {
+	position: absolute;
+}
+
+#impact-phrase .sframe {
+	right: 3%;
+	bottom: -47%;
+}
+
+#impact-phrase .folha {
+	top: -30%;
+	width: 380px;
+}
+
+#impact-phrase .folhad {
+	position: absolute;
+	top: -167%;
+	right: 0;
+	width: 260px;
+}
+
+#impact-phrase .fframe {
+	top: -110%;
+	left: 35%;
+}
+
+#contact h2 {
+	display: block;
+	font-size: 60px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+#contact .city-list li {
+	width: 24.5%;
+	text-align: center;
+	display: inline-block;
+}
+
+#contact .city-list li span {
+	display: block;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+#contact .city-list li h3 {
+	font-weight: 700;
+	margin: 20px 0;
+}
+
+.contact-form {
+	max-width: 50%;
+	margin: 60px auto;
+}
+
+.contact-form h3 {
+	font-weight: 600;
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+
+.contact-form .form-group {
+	width: 48%;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.contact-form .form-group:nth-child(odd) {
+	margin-right: 20px;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group-textarea textarea {
+	border: 2px solid #DDD;
+	height: 40px;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.contact-form .form-group-textarea {
+	width: 100%;
+}
+
+.contact-form .form-group-textarea textarea {
+	height: 150px;
+}
+
+.contact-form button {
+	color: #FFF;
+	background: #425171;
+	border-radius: 102px;
+	border: 0;
+	padding: 10px 36px;
+	margin-top: 10px;
+}
+
+.social {
+	display: table;
+	margin: 40px auto;
+}
+
+.social a {
+	text-decoration: none;
+}
+
+.social a img {
+	width: 40px;
+}
+
+footer {
+	height: 100px;
+	background: #425171;
+}

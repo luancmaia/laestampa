@@ -1,0 +1,93 @@
+#banner-wrap > img {
+	max-width: 50% !important;
+	padding-top: 17%;
+}
+
+#banner-wrap > h2 {
+	margin-top: 78px;
+    	background: #ead9ca;
+    	padding: 20px 0;
+}
+
+#banner-wrap {
+	height: auto;
+	background-size: 100% auto;
+}
+
+.imgwt {
+	flex-wrap: wrap;
+}
+
+.imgwt p {
+	max-width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.imgwt .frame-overlay {
+	top: 18%;
+}
+
+.imgwt .right-side,
+.imgwt .left-side {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+
+#locations .right-side {
+	display: none;
+}
+
+.folha, .fframe, .sframe {
+	display: none;
+}
+
+.banner-photo, #impact-phrase {
+	margin: 50px 0;
+}
+
+#services {
+	flex-wrap: wrap-reverse;
+}
+
+#services .left-side > p {
+	max-width: 100%;
+	text-align: center;
+}
+
+#services .left-side {
+	margin-right: 0;
+}
+
+#contact .city-list li {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.contact-form {
+	max-width: 100%;
+}
+
+.contact-form .form-group {
+	width: 100%;
+}
+
+.folhad {
+	display: none;
+}
+
+#banner-wrap > img {
+	max-width: 100%;
+}
+
+#services h2 {
+	font-size: 58px;
+}
+
+.imgwt .frame-overlay {
+	top: 23%;
+}
+
+#stats {
+	margin: 80px 0;
+}

@@ -1,0 +1,43 @@
+.container {
+	width: 100%;
+	padding: 0 20px;
+}
+
+.imgwt p {
+	font-size: 20px;
+}
+
+.imgwt img {
+	max-width: 90%;
+}
+
+.left-side h2 {
+	padding-right: 47px;
+}
+
+.contact-form .form-group {
+	width: 46%;
+}
+
+#impact-phrase .folha {
+	width: 144px;
+}
+
+#impact-phrase .fframe {
+    top: -81%;
+    left: 24%;
+    width: 342px;
+}
+
+#impact-phrase .sframe {
+    width: 342px;
+}
+
+#aboutus .right-side {
+	margin-left: 0;
+    padding-right: 40px;
+}
+
+.folhad {
+	width: 220px !important;
+}
